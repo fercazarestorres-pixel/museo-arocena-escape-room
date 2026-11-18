@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#181820">
+  <meta name="description" content="Descubre El secreto del Arocena, una propuesta académica de escape room para explorar el museo en equipo. Resuelve una pista de ejemplo.">
+  <title>El secreto del Arocena · Escape room educativo</title>
+  <link rel="icon" href="recursos/imagenes/insignia.png" type="image/png">
+  <link rel="stylesheet" href="recursos/estilos.css">
+  <script src="recursos/archivo.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="masthead" id="cabecera">
+    <div class="container masthead-inner">
+      <a class="wordmark" href="#inicio" aria-label="El secreto del Arocena, ir al inicio">
+        <span class="emblem" aria-hidden="true"><span></span></span>
+        <span>El secreto del Arocena</span>
+      </a>
+      <button class="menu-toggle" id="boton-menu" type="button" aria-expanded="false" aria-controls="navegacion" hidden>
+        <span>Menú</span><span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="navegacion" class="main-nav" aria-label="Navegación principal">
+        <a href="#experiencia">La experiencia</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#preguntas">Preguntas frecuentes</a>
+        <a href="#pista" class="nav-action">Prueba una pista <span class="arrow" aria-hidden="true"></span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="hero" id="inicio" aria-labelledby="titulo" tabindex="-1">
+      <figure class="hero-figure">
+        <picture>
+          <source media="(max-width: 680px)" srcset="recursos/imagenes/archivo-movil.webp">
+          <img src="recursos/imagenes/archivo.webp" alt="Una llave de latón descansa sobre un sobre lacrado y un mapa antiguo." width="1740" height="725" fetchpriority="high">
+        </picture>
+        <figcaption>Ilustración conceptual</figcaption>
+      </figure>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Propuesta académica</p>
+          <h1 id="titulo">El museo guarda <em>un secreto.</em></h1>
+          <p class="hero-description">Un escape room educativo para el Museo Arocena. Reúne a tu equipo, conecta las pistas y reconstruye la historia de un archivo incompleto.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#pista">Prueba una pista <span class="arrow" aria-hidden="true"></span></a>
+            <a class="text-action" href="#experiencia">Descubre la experiencia <span class="arrow arrow-down" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper intro" id="experiencia" aria-labelledby="titulo-experiencia" tabindex="-1">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow eyebrow-ink">La experiencia</p>
+          <h2 id="titulo-experiencia">Un archivo <em>incompleto.</em></h2>
+        </div>
+        <div class="intro-story">
+          <p>Imagina que encuentras un expediente al que le faltan páginas. Una fecha en una ficha y un detalle en una obra parecen contar partes de la misma historia.</p>
+          <p>Tu equipo tendrá que seguir esas conexiones entre las piezas del museo, reunir las pistas y descubrir el código que completa el relato.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper process" id="como-funciona" aria-labelledby="titulo-pasos" tabindex="-1">
+      <div class="container process-inner">
+        <h2 id="titulo-pasos">Cómo funciona</h2>
+        <ol class="steps">
+          <li>
+            <div class="step-art"><img src="recursos/imagenes/equipo.webp" width="570" height="372" loading="lazy" decoding="async" alt="Dos manos se pasan una carpeta."></div>
+            <div class="step-title"><span class="step-number" aria-hidden="true">01</span><h3>Reúne a tu equipo</h3></div>
+            <p>Comparte el expediente. Cada integrante puede encontrar algo que los demás pasaron por alto.</p>
+          </li>
+          <li>
+            <div class="step-art"><img src="recursos/imagenes/pistas.webp" width="500" height="424" loading="lazy" decoding="async" alt="Una lupa amplía los detalles de un mapa."></div>
+            <div class="step-title"><span class="step-number" aria-hidden="true">02</span><h3>Conecta las pistas</h3></div>
+            <p>Observa fechas, símbolos y detalles de las piezas. Compara tus hallazgos con los de tu equipo.</p>
+          </li>
+          <li>
+            <div class="step-art"><img src="recursos/imagenes/misterio.webp" width="480" height="463" loading="lazy" decoding="async" alt="Un candado abierto junto a su llave."></div>
+            <div class="step-title"><span class="step-number" aria-hidden="true">03</span><h3>Resuelve el misterio</h3></div>
+            <p>Usa las conexiones que descubrieron para deducir el código final y reconstruir la historia.</p>
+          </li>
+        </ol>
+        <aside class="discover" aria-labelledby="titulo-hallazgos">
+          <h3 id="titulo-hallazgos">Qué descubrirás</h3>
+          <p>Cómo un detalle cambia tu lectura de una obra, qué une las historias de dos piezas y cómo comparar ideas en equipo ayuda a resolver un acertijo.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="challenge" id="pista" aria-labelledby="titulo-pista" tabindex="-1">
+      <div class="container challenge-layout">
+        <div class="challenge-intro">
+          <span class="emblem emblem-large" aria-hidden="true"><span></span></span>
+          <h2 id="titulo-pista">Tu primera <em>pista.</em></h2>
+          <p class="instructions">Ordena mentalmente las fichas de la más antigua a la más reciente. Escribe sus códigos en ese orden.</p>
+          <p class="demo-note">Acertijo de ejemplo con fichas ficticias.</p>
+        </div>
+        <div class="case-file">
+          <ul class="records" aria-label="Fichas del acertijo">
+            <li class="record">
+              <h3>Ficha A</h3>
+              <dl><div class="record-date"><dt>Año</dt><dd>1920</dd></div><div class="record-code"><dt>Código</dt><dd>7</dd></div></dl>
+            </li>
+            <li class="record">
+              <h3>Ficha B</h3>
+              <dl><div class="record-date"><dt>Año</dt><dd>1780</dd></div><div class="record-code"><dt>Código</dt><dd>2</dd></div></dl>
+            </li>
+            <li class="record">
+              <h3>Ficha C</h3>
+              <dl><div class="record-date"><dt>Año</dt><dd>1840</dd></div><div class="record-code"><dt>Código</dt><dd>4</dd></div></dl>
+            </li>
+          </ul>
+          <form id="reto" novalidate hidden>
+            <label for="codigo">Código de tres dígitos</label>
+            <div class="answer-row">
+              <input id="codigo" name="codigo" type="text" inputmode="numeric" pattern="[0-9]{3}" autocomplete="off" spellcheck="false" enterkeyhint="done" placeholder="· · ·" aria-describedby="resultado">
+              <button class="button button-gold" type="submit">Comprobar <span class="arrow" aria-hidden="true"></span></button>
+            </div>
+            <p class="feedback" id="resultado" role="status" aria-live="polite" aria-atomic="true"></p>
+            <div class="puzzle-tools">
+              <details class="hint" id="ayuda">
+                <summary><span class="hint-mark" aria-hidden="true">?</span><span class="hint-show">Ver pista</span><span class="hint-hide">Ocultar pista</span></summary>
+                <p>Empieza por la ficha de 1780.</p>
+              </details>
+              <button class="retry" type="reset" hidden>Intentar de nuevo <span aria-hidden="true">↺</span></button>
+            </div>
+          </form>
+          <noscript><p>Activa JavaScript en tu navegador para comprobar el código y pedir una pista.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper details-section" aria-labelledby="titulo-detalles">
+      <div class="container">
+        <h2 id="titulo-detalles">Detalles de la propuesta</h2>
+        <p class="details-note">Estos parámetros de la actividad presencial están por validar con el museo.</p>
+        <dl class="specs">
+          <div><dt>Duración estimada</dt><dd>30–45 <span>minutos</span></dd></div>
+          <div><dt>Por equipo</dt><dd>3–5 <span>personas</span></dd></div>
+          <div><dt>Dificultad propuesta</dt><dd>Introductoria</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="paper faq" id="preguntas" aria-labelledby="titulo-preguntas" tabindex="-1">
+      <div class="container faq-layout">
+        <h2 id="titulo-preguntas">Preguntas <em>frecuentes.</em></h2>
+        <div class="questions">
+          <details><summary>¿Qué es un escape room?<span class="plus" aria-hidden="true"></span></summary><p>Es un juego en el que un equipo observa su entorno y resuelve acertijos para alcanzar un objetivo. En esta propuesta, la meta es reconstruir una historia del museo y descubrir un código final.</p></details>
+          <details><summary>¿Necesito conocimientos previos?<span class="plus" aria-hidden="true"></span></summary><p>Puedes empezar con lo que muestran las fichas. La experiencia se plantea para principiantes y en la demostración puedes pedir una pista en cualquier momento.</p></details>
+          <details><summary>¿Es una experiencia de terror?<span class="plus" aria-hidden="true"></span></summary><p>Es un misterio cultural sin terror. La intriga surge de encontrar conexiones entre las pistas, las piezas y sus historias.</p></details>
+          <details><summary>¿Ya se puede jugar en el museo?<span class="plus" aria-hidden="true"></span></summary><p>Por ahora puedes probar el acertijo de esta página. La actividad presencial es una propuesta académica del Tec de Monterrey, Campus Laguna. Las piezas, el espacio, las fechas y la operación quedan pendientes de validación con el Museo Arocena.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="wordmark" href="#inicio" aria-label="El secreto del Arocena, volver al inicio"><span class="emblem" aria-hidden="true"><span></span></span><span>El secreto del Arocena</span></a>
+        <p>Propuesta académica del equipo del Tec de Monterrey, Campus Laguna.</p>
+      </div>
+      <a class="button button-outline" href="#pista">Prueba una pista <span class="arrow" aria-hidden="true"></span></a>
+    </div>
+  </footer>
+</body>
+</html>
